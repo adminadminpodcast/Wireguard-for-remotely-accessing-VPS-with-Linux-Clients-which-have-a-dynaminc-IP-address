@@ -49,7 +49,7 @@ PrivateKey = ReplaceWithServerPrviateKey
 ListenPort = 55555
 
 [Peer]
-PublicKey = ReplaceWithLaptopPublicKey
+PublicKey = ReplaceWithclientPublicKey
 AllowedIPs = 10.1.1.2/32
 ```
 
@@ -61,11 +61,11 @@ sudo vi /etc/wireguard/wg0.conf
 Add the following,Replacing the PrivateKey and PublicKey from the output of the notes you take in the previous step and replace the Endpoint with the public IP address or Hostname of the server.
 ```
 [Interface]
-Address = 10.1.1.3/24
+Address = 10.1.1.2/24
 PrivateKey = ReplaceWithclientprivatekey
 
 [Peer]
-PublicKey = ReplaceWithClientPrviateKey
+PublicKey = ReplaceWithClientPublicKey
 AllowedIPs = 10.1.1.0/24
 Endpoint = wireguard.example.com:55555
 PersistentKeepalive = 10
