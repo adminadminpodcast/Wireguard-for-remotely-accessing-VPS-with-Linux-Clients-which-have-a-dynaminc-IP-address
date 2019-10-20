@@ -2,7 +2,7 @@
 
 I have a VPS on the interent which has a public IP address. I have never been a great fan of exposing SSH and Other services which i only i need access to. I normally lock down the firewalls on the VPS for the services to static a Publix IP address i will be sitting behind, Normally my home broadband connection or my work office. Latley i have been traveling alot and need to access one of these services but did not have acess to come from one of these static Public IP address.
 
-I would like to set up a simple Client to Server VPN Configuartion, so i dont need to come from a static public IP address. I heard of wireguard back at Oggcamp and sort i give it a go.
+I would like to set up a simple client to Server VPN Configuartion, so i dont need to come from a static public IP address. I heard of wireguard back at Oggcamp and sort i give it a go.(and i did a talk about this a oggcamp 2019)
 
 
 ![Wireguard Overview](wireguard.png)
